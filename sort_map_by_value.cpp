@@ -7,12 +7,11 @@ using namespace std;
 typedef pair<string,int> PAIR;
 /**
  * Compare x and y second value;
- * @param flag: flag is 1, sort by big to little; else flag if 0, sort by little to big;
  * @return: 0 or 1.
 */
 int cmp(const PAIR& x, const PAIR& y)    
 {   
-    return x.second > y.second;    
+    return x.second > y.second;    //return from top value to low value.
 }
 // template <typename T1, typename T2>
 // int cmp_by_value_down(const T1& x, const T2& y)
